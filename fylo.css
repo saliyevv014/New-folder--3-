@@ -216,7 +216,7 @@ ul {
 .nav__footer {
     display: flex;
     justify-content: space-between;
-padding: 30px 0;
+    padding: 30px 0;
 
 }
 
@@ -226,8 +226,12 @@ padding: 30px 0;
     gap: 16px;
 }
 
-.img5{
+.img5 {
     padding-top: 30px;
+}
+
+.img0 {
+    margin-left: -100px;
 }
 
 @media (max-width: 400px) {
@@ -369,6 +373,36 @@ padding: 30px 0;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0px;
+    }
+
+    .nav__footer {
+        font-family: Open Sans;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 24px;
+        letter-spacing: 0px;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .list0{
+        margin-left: 20px;
+        margin-top: -100px;
+    }
+
+    .list2{
+        margin-top: 64px;
+        margin-left: 20px;
+    }
+
+    .list1{
+        margin-left: 20px;
+        margin-top: 32px;
+    }
+
+    .ul22{
+        margin-top: 62px;
+        margin-left: 200px;
     }
 
 }
