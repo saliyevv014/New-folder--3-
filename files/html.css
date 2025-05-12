@@ -1,0 +1,21 @@
+.div1:hover{
+    background-image: url(./anime.jpg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div1{
+    background-image: url(./anime2.jpg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.div1:active{
+    background-image: url(anime3.jpg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
